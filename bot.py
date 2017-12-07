@@ -153,10 +153,10 @@ def bot(op):
             msg = op.message
 
 #-----------------------------[KICK ALL]-----------------------------#
-            if "Hallo" in msg.text:
+            if "Grupnya Gembel ya gk di protect :v" in msg.text:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Hallo","")
+                    _name = msg.text.replace("Grupnya Gembel ya gk di protect :v","")
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
                     gs = kc.getGroup(msg.to)
